@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- CSS only -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <!-- CSS only -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/Develop/assets/style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron mb-0">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+    <!-- <div class="divider py-1 bg-dark"></div> -->
+    <!-- <div class="divider py-1 bg-dark"></div> -->
+    <div class="container">
+      <div class="row" id="5">
+        <div class="col-1 hour">
+          <p class="">5 am</p>
+        </div>
+        <div class="col-10 description">
+          <div class="time-block">event</div>
+        </div>
+        <div class="col-1">
+          <button class="saveBtn"> 
+            <i class="fa-solid fa-floppy-disk text-dark "></i>
+          </button> 
+               </div>
+      </div>
+      <div class="row" id="6">
+        <div class="col-1 hour">
+          <p class="">6 am</p>
+        </div>
+        <div class="col-10 description">
+          <div class="time-block"></div>
+        </div>
+        <div class="col-1">
+          <button class="saveBtn"> 
+            <i class="fa-solid fa-floppy-disk text-dark "></i>
+          </button> 
+               </div>
+      </div>
+      <div class="row" id="7">
+        <div class="col-1 hour">
+          <p class="">7 am</p>
+        </div>
+        <div class="col-10 description">
+          <div class="time-block"></div>
+        </div>
+        <div class="col-1">
+          <button class="saveBtn"> 
+            <i class="fa-solid fa-floppy-disk text-dark "></i>
+          </button> 
+               </div>
+      </div>
+      <div class="row" id="8">
+        <div class="col-1 hour">
+          <p class="">8 am</p>
+        </div>
+        <div class="col-10 description">
+          <div class="time-block">event</div>
+        </div>
+        <div class="col-1">
+          <button class="saveBtn"> 
+            <i class="fa-solid fa-floppy-disk text-dark "></i>
+          </button> 
+               </div>
+      </div>
+      <div class="row" id="9">
+        <div class="col-1 hour">
+          <p class="">9 am</p>
+        </div>
+        <div class="col-10 description">
+          <div class="time-block">event</div>
+        </div>
+        <div class="col-1">
+          <button class="saveBtn"> 
+          <i class="fa-solid fa-floppy-disk text-dark "></i>
+        </button>
+        </div>
+      </div>
+      <div class="row gx-1" id="10">
+        <div class="col-1 hour">
+          <p class="">10 am</p>
+        </div>
+        <div class="col-10 description">
+          <div class="time-block">event</div>
+        </div>
+        <div class="col-1">
+          <button class="saveBtn"> 
+            <i class="fa-solid fa-floppy-disk text-dark "></i>
+          </button> 
+               </div>
+      </div>
+    </div>
+
+    <!-- <div class="h1">
+      <i class="bi bi-alarm ml-2"></i>
+    </div> -->
+
+    <!-- Timeblocks go here -->
+    <!-- 
+    <button class="btn btn-primary mt-2">bootstap button</button>
+
+    <p>Date: <input type="text" id="datepicker" class="my-5" /></p>
+
+    <div class="input-group">
+      <input
+        type="text"
+        class="form-control present"
+        placeholder="add event"
+        aria-label="Recipient's username"
+        aria-describedby="button-addon2"
+      />
+      <button class="btn future" type="button" id="button-addon2">save</button>
+    </div> -->
+    <script
+      src="https://kit.fontawesome.com/4f1341bf20.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script src="/Develop/script.js"></script>
+  </body>
+</html>
