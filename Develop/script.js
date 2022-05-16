@@ -1,4 +1,5 @@
 /** gets current date and time and displays it on page */
+
 const now = new Date($.now())
 const todayDate = moment(now).format("dddd, MMMM Do, h:mm a z")
 const currentHour = moment(now).format("H")
@@ -36,7 +37,7 @@ function createHTML() {
   }
   return myHTML
 }
-
+$(document).ready(function(){
 createHTML()
 /** adds the html to page */
 $(".container").append(myHTML.join(""))
@@ -46,7 +47,6 @@ $(".row").each(function (index, value) {
   // console.log(this.id)
   if (parseInt(this.id) == currentHour) {
     $(this).addClass("present")
-    console.log(parseInt(this.id))
   } else if (parseInt(this.id) < currentHour) {
     $(this).addClass("past")
   } else if (parseInt(this.id) > currentHour) {
@@ -71,3 +71,4 @@ const renderEvents = () => {
 
 }
 renderEvents()
+})
