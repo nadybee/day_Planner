@@ -11,7 +11,7 @@ const myHTML = []
 function createHTML() {
   let time = 0
   let timeLetters
-  for (let i = 5; i < 24; i++) {
+  for (let i = 9; i <18; i++) {
     if (i > 12) {
       time = i - 12
       timeLetters = "pm"
