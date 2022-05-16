@@ -11,7 +11,7 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
-    <!-- CSS only -->
+    <!--Added font awesome icon link for save button-->
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -36,34 +36,13 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-
+    <!-- showing event has been saved-->
+<div id="event-notification" class="d-flex justify-content-center p-1" role="alert"></div>
     <div class="container">
     </div>
 
-    <!-- <div class="h1">
-      <i class="bi bi-alarm ml-2"></i>
-    </div> -->
-
-    <!-- Timeblocks go here -->
-    <!-- 
-    <button class="btn btn-primary mt-2">bootstap button</button>
-
-    <p>Date: <input type="text" id="datepicker" class="my-5" /></p>
-
-    <div class="input-group">
-      <input
-        type="text"
-        class="form-control present"
-        placeholder="add event"
-        aria-label="Recipient's username"
-        aria-describedby="button-addon2"
-      />
-      <button class="btn future" type="button" id="button-addon2">save</button>
-    </div> -->
-    <script
-      src="https://kit.fontawesome.com/4f1341bf20.js"
-      crossorigin="anonymous"
-    ></script>
+    <!-- for fontAwesome icons-->
+ 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <!-- JavaScript Bundle with Popper -->
@@ -74,6 +53,10 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script
+    src="https://kit.fontawesome.com/4f1341bf20.js"
+    crossorigin="anonymous"
+  ></script>
     <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
     <script src="/Develop/script.js"></script>
   </body>

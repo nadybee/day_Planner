@@ -59,16 +59,20 @@ body {
   }
   
   .saveBtn {
+    display: flex;
     border-left: 1px solid black; 
+    align-items: center;
+    justify-content: center;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     background-color: #06AED5;
-    /* color: white; */
+    color: white;
   }
   
   .saveBtn i:hover {
     font-size: 20px;
     transition: all .3s ease-in-out;
   }
+
 
   
