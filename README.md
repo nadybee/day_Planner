@@ -1,6 +1,8 @@
-# Module 5 assignment
-## Work Day Scheduler
+
+# Work Day Scheduler
 ### module 5 challenge for bootcamp
+
+#### This is a simple scheduling app. Users can see on the app the current date and time and add something to their scheduling. It shows the time that has passed, the current time and future times.
 
 This app is built using:
 *   HTML/CSS
