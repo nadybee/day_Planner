@@ -25,7 +25,7 @@ I was given starter code that can be found here:
 
 https://github.com/coding-boot-camp/super-disco
 
-![alt text](Develop/assets/Screen%20Shot%202022-05-16%20at%208.09.57%20AM.png)
+![alt text](/assets/Screen%20Shot%202022-05-16%20at%208.09.57%20AM.png)
 
 
 
