@@ -19,7 +19,7 @@ I used javascript and jquery to write most of the html. I use bootstrap columns 
 
 Live app deployment can be found here:
 
-https://nadybee.github.io/module_5/
+https://nadybee.github.io/day_Planner/
 
 I was given starter code that can be found here:
 
